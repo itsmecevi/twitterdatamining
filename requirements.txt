@@ -1,5 +1,6 @@
-streamlit
-pandas
-numpy
-snscrape
-sntwitter
+altair==4.2.2
+attrs==22.2.0
+beautifulsoup==4.11.2
+blinker==1.5
+streamlit==1.17.0
+snscrape==0.5.0.20230113
