@@ -17,7 +17,7 @@ with st.expander('About this app'):
   st.write('by: itsmecevi.github.io')
 
 
-st.sidebar.header('Masukan Keyword')
+st.sidebar.header('Search:')
 st.caption("⚠️ Use keyword: Indonesia")
 st.caption("⚠️ Use hastag: #indonesia")
 st.caption("⚠️ Time based keyword: Indonesia until:2020-12-30 since:2020-01-01")
@@ -25,11 +25,11 @@ st.caption("⚠️ Time based hastag: #indonesia until:2020-12-30 since:2020-01-
 
 
 
-keyword = st.sidebar.text_input('Contoh: Tesla until: 2020-01-01 since:2020-12-30')
+#keyword = st.sidebar.text_input('Contoh: Tesla until: 2020-01-01 since:2020-12-30')
 
 
-st.sidebar.header('Input')
-number = st.sidebar.number_input('Masukan jumlah data')
+st.sidebar.header('How Many Data:')
+#number = st.sidebar.number_input('Masukan jumlah data')
 
 st.header('Output')
 
