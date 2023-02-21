@@ -25,11 +25,11 @@ st.caption("⚠️ Time based hastag: #indonesia until:2020-12-30 since:2020-01-
 
 
 
-#keyword = st.sidebar.text_input('Contoh: Tesla until: 2020-01-01 since:2020-12-30')
+keyword = st.sidebar.text_input('')
 
 
 st.sidebar.header('How Many Data:')
-#number = st.sidebar.number_input('Masukan jumlah data')
+number = st.sidebar.number_input('')
 
 st.header('Output')
 
