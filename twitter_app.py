@@ -18,10 +18,10 @@ with st.expander('About this app'):
 
 
 st.sidebar.header('Masukan Keyword')
-st.caption("⚠️ Format dengan keyword: Indonesia")
-st.caption("⚠️ Format dengan hastag: #indonesia")
-st.caption("⚠️ Format dengan tanggal awal dan akhir: Indonesia until:2020-12-30 since:2020-01-01")
-st.caption("⚠️ Format dengan tanggal awal dan akhir: #indonesia until:2020-12-30 since:2020-01-01")
+st.caption("⚠️ Use keyword: Indonesia")
+st.caption("⚠️ Use hastag: #indonesia")
+st.caption("⚠️ Time based keyword: Indonesia until:2020-12-30 since:2020-01-01")
+st.caption("⚠️ Time based hastag: #indonesia until:2020-12-30 since:2020-01-01")
 
 
 
