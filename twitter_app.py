@@ -44,9 +44,9 @@ with col1:
 
 with col2:
   if number != '':
-    # st.write('')
+    st.write('')
   else:
-    st.write('👈')
+    st.write('')
 
 
 
