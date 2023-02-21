@@ -37,14 +37,14 @@ col1, col2, col3= st.columns(3)
 
 with col1:
   if keyword != '':
-    st.write(f'👋 Key: {keyword}!')
+    st.write()
   else:
-   # st.write('👈 Masukan keyword dan jumlah data')
+   st.write('')
 
 
 with col2:
   if number != '':
-    # st.write(f'👋 Jumlah data: {number}!')
+    # st.write('')
   else:
     st.write('👈')
 
