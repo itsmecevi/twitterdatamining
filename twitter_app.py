@@ -33,7 +33,7 @@ number = st.sidebar.number_input('')
 
 st.header('Output')
 
-col1, col2, col3= st.columns(5)
+col1, col2, col3= st.columns(3)
 
 with col1:
   if keyword != '':
@@ -65,7 +65,7 @@ for tweet in sntwitter.TwitterSearchScraper(query).get_items():
         tweets.append([tweet.username, tweet.content, tweet.date, tweet.url,])
         
 x=pd.DataFrame(tweets, columns=['User', 'Tweet', 'Date', 'Url'])
-y=x.head(3)
+y=x.head(5)
 
 
 st.write("👋 Tampilkan hanya 5 rows")
