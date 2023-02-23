@@ -33,7 +33,7 @@ number = st.sidebar.number_input('')
 
 st.header('Output')
 
-col1, col2, col3= st.columns(3)
+col1, col2, col3= st.columns(5)
 
 with col1:
   if keyword != '':
@@ -68,7 +68,7 @@ x=pd.DataFrame(tweets, columns=['User', 'Tweet', 'Date', 'Url'])
 y=x.head(3)
 
 
-st.write("👋 Tampilkan hanya 3 rows")
+st.write("👋 Tampilkan hanya 5 rows")
 st.table(y)
 
 
