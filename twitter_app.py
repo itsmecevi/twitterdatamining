@@ -20,8 +20,8 @@ with st.expander('About this app'):
 st.sidebar.header('Search:')
 st.caption("⚠️ Use keyword: Indonesia")
 st.caption("⚠️ Use hastag: #indonesia")
-st.caption("⚠️ Time based keyword: Indonesia until:2020-12-30 since:2020-01-01")
-st.caption("⚠️ Time based hastag: #indonesia until:2020-12-30 since:2020-01-01")
+#st.caption("⚠️ Time based keyword: Indonesia until:2020-12-30 since:2020-01-01")
+#st.caption("⚠️ Time based hastag: #indonesia until:2020-12-30 since:2020-01-01")
 
 
 
