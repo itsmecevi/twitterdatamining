@@ -57,12 +57,23 @@ limit = number
 tweets = []
 
 
+try:
+    for tweet in sntwitter.TwitterSearchScraper(query).get_items():
+        if len(tweets) == limit:
+            break
+        else:
+            tweets.append([tweet.username, tweet.content, tweet.date, tweet.url])
+except Exception as e:
+    st.write(f"Error: {e}")
+    import traceback
+    st.write(traceback.format_exc())
 
-for tweet in sntwitter.TwitterSearchScraper(query).get_items():
-    if len(tweets) == limit:
-        break
-    else:
-        tweets.append([tweet.username, tweet.content, tweet.date, tweet.url,])
+
+#for tweet in sntwitter.TwitterSearchScraper(query).get_items():
+#    if len(tweets) == limit:
+#        break
+#    else:
+#        tweets.append([tweet.username, tweet.content, tweet.date, tweet.url,])
         
 x=pd.DataFrame(tweets, columns=['User', 'Tweet', 'Date', 'Url'])
 y=x.head(5)
@@ -87,3 +98,7 @@ st.download_button(
    "text/csv",
    key='download-csv'
 ) 
+
+
+
+
