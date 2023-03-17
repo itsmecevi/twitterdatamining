@@ -1,4 +1,3 @@
-
 import streamlit as st
 import snscrape.modules.twitter as sntwitter
 import numpy as np
@@ -49,8 +48,7 @@ with col2:
     st.write('')
 
 
-
-   #scraping with paramater
+#scraping with paramater
 query = keyword   # Keyword 
 limit = number
 
@@ -67,6 +65,7 @@ tweets = []
 #    st.write(f"Error: {e}")
 #    import traceback
 #    st.write(traceback.format_exc())
+
 
 for tweet in sntwitter.TwitterSearchScraper(query).get_items():
     if len(tweets) == limit:
