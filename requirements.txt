@@ -1,2 +1,2 @@
-streamlit==1.17.0
+streamlit==1.19.0
 snscrape==0.5.0.20230113
