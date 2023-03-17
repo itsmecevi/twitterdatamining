@@ -15,9 +15,6 @@ with st.expander('About this app'):
   st.write('This web app collect the data from twitter')
   st.image('https://cdn-icons-png.flaticon.com/512/124/124021.png', width=150)
   st.write('by: UBM Insight All Team')
-  st.write('by: UBM Insight All Team')
-  st.write('by: UBM Insight All Team')
-  st.write('by: UBM Insight All Team')
 
 
 
