@@ -7,7 +7,7 @@ import pandas as pd
 
 st.set_page_config(layout="wide")
 
-st.header('Cevi Herdian Insight')
+st.header('UBM Insight')
 st.subheader('Twitter Data Mining Web App')
 
 
